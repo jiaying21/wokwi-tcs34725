@@ -1,0 +1,6 @@
+{
+  "name":"TCS34725 Color Sensor",
+  "description":"RGB color sensor with IR filter",
+  "chips":{"TCS34725":{"type":"i2c","address":41}},
+  "pins":[["VIN","power"],["GND","ground"],["SCL","i2c-scl"],["SDA","i2c-sda"]]
+}

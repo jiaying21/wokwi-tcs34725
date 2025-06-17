@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "author": "leejiaying",
+  "devices": [
+    {"type":"wokwi-arduino-uno","id":"uno","top":0,"left":0},
+    {"type":"custom","id":"tcs34725","top":-50,"left":200,"attrs":{"chip":"TCS34725"}}
+  ],
+  "connections":[
+    ["uno:5V","tcs34725:VIN"],
+    ["uno:GND","tcs34725:GND"],
+    ["uno:A4","tcs34725:SDA"],
+    ["uno:A5","tcs34725:SCL"]
+  ]
+}
